@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWGOH-Raid_Scraper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f63230cf81c031885201d1ad356b3aa9d138fc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+026301e33ab88b251eabcd967a88353eab40653d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWGOH-Raid_Scraper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWGOH-Raid_Scraper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
