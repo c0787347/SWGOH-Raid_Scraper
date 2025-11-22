@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SWGOH-Raid_Scraper": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
