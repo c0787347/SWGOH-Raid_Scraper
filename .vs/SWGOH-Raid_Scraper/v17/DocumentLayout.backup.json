@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79D13D17-2500-9B80-A88B-7255C37BE119}|SWGOH-Raid_Scraper.csproj|c:\\users\\seane\\onedrive - lambton college\\term 3\\csd-4503 - devops\\swgoh-raid_scraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D13D17-2500-9B80-A88B-7255C37BE119}|SWGOH-Raid_Scraper.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,12 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\Program.cs",
-              "RelativeDocumentMoniker": "SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\Program.cs",
-              "ToolTip": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\Program.cs",
-              "RelativeToolTip": "SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T22:29:40.575Z"
+              "WhenOpened": "2025-11-22T22:38:18.276Z",
+              "EditorCaption": ""
             }
           ]
         }

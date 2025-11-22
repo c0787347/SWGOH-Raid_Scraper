@@ -10,3 +10,5 @@ The Team:
 Antonio Stefan
 David Loerts
 Sean Clarke
+
+Pull any raid ID from https://swgoh.gg/g/nA8P3kQJRMyA7VqglhVOqQ/raid-history/
