@@ -15,56 +15,7 @@ class Program
 
     static async Task Main()
     {
-        Console.WriteLine("Enter the raid ID (the part after /raid-history/), e.g. bb0ea6749c:");
-        string raidId = Console.ReadLine()?.Trim() ?? "";
-        raidId = raidId.Trim('/');
-
-        if (string.IsNullOrWhiteSpace(raidId))
-        {
-            Console.WriteLine("No raid ID entered. Exiting.");
-            return;
-        }
-
-        //Build full SWGOH.GG link
-        string raidUrl = GuildRaidBaseUrl + raidId + "/";
-
-        Console.WriteLine($"\nOpening raid page in your default browser:\n{raidUrl}\n");
-        Process.Start(new ProcessStartInfo
-        {
-            FileName = raidUrl,
-            UseShellExecute = true
-        });
-
-        //Ensure html_files exists
-        string projectRoot = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", ".."));
-
-        string htmlDir = Path.Combine(projectRoot, HtmlFolder);
-
-        if (!Directory.Exists(htmlDir))
-        {
-            Directory.CreateDirectory(htmlDir);
-            Console.WriteLine($"Created folder: {htmlDir}");
-        }
-
-        Console.WriteLine("When the page finishes loading:");
-        Console.WriteLine($"  1) Press CTRL+S in your browser");
-        Console.WriteLine($"  2) Save the page as: {raidId}.html");
-        Console.WriteLine($"  3) Save it into this folder:\n     {htmlDir}");
-        Console.WriteLine("\nPress ENTER here once you've saved the file...");
-        Console.ReadLine();
-
-        string filePath = Path.Combine(htmlDir, raidId + ".html");
-
-
-        if (!File.Exists(filePath))
-        {
-            Console.WriteLine($"ERROR: File not found: {filePath}");
-            Console.WriteLine("Did you save it in the correct folder?");
-            return;
-        }
-
-        Console.WriteLine("\nParsing raid HTML...");
-
+        
         string html = File.ReadAllText(filePath);
         var doc = new HtmlDocument();
         doc.LoadHtml(html);
