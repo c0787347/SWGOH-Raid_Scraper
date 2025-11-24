@@ -17,7 +17,7 @@ class Program
     {
         Console.WriteLine("Enter the raid ID (the part after /raid-history/), e.g. bb0ea6749c:");
         string raidId = Console.ReadLine()?.Trim() ?? "";
-        raidId = raidId.Trim('/');
+        raidId = "bb0ea6749c".Trim('/');
 
         if (string.IsNullOrWhiteSpace(raidId))
         {
