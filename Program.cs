@@ -11,7 +11,7 @@ class Program
     private const string HtmlFolder = "html_files";
 
     //Discord webhook URL
-    private const string DiscordWebhookUrl = "https://discord.com/api/webhooks/1441898139081637918/cwSMpH5T9yxj2IJnrZvlWtP-HrwL_GMZ0RhqE1KK86HAprn8PrGXv1NlKFcL4tlGYmfc";
+    private const string DiscordWebhookUrl = "https://discord.com/api/webhooks/1442649274281365675/B3tNQ6hSqJ_hoTcFK8wHAhiIJcCDFNUWmLVZG8t-YecRyjtw_HdlLl60ry_CrTnJeZgL";
 
     static async Task Main()
     {

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj": {}
+    "C:\\Users\\loert\\OneDrive\\Documents\\GitHub\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj": {
+    "C:\\Users\\loert\\OneDrive\\Documents\\GitHub\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj",
+        "projectUniqueName": "C:\\Users\\loert\\OneDrive\\Documents\\GitHub\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj",
         "projectName": "SWGOH-Raid_Scraper",
-        "projectPath": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj",
-        "packagesPath": "C:\\Users\\seane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seane\\OneDrive - Lambton College\\Term 3\\CSD-4503 - DevOps\\SWGOH-Raid_Scraper\\obj\\",
+        "projectPath": "C:\\Users\\loert\\OneDrive\\Documents\\GitHub\\SWGOH-Raid_Scraper\\SWGOH-Raid_Scraper.csproj",
+        "packagesPath": "C:\\Users\\loert\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loert\\OneDrive\\Documents\\GitHub\\SWGOH-Raid_Scraper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\seane\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\loert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
